@@ -1,0 +1,36 @@
+.movieCard {
+  list-style: none;
+  font-size: 1.5rem;
+  text-align: center;
+  transition: 0.5s;
+}
+
+link{
+  text-decoration: none;
+
+}
+
+
+
+.movieCard:hover {
+  opacity: 0.5;
+  transform: translateY(-20px);
+  cursor: pointer;
+}
+
+.movieImage {
+  border-radius: 10px;
+}
+
+.movieTitle {
+  margin-top: 20px;
+  color: #9F91FE;
+  text-decoration: none;
+}
+
+@media (max-width: 560px) {
+  .movieImage {
+    width: 90%;
+    height: auto;
+  }
+}
